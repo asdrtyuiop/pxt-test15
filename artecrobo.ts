@@ -27,7 +27,7 @@ namespace artecrobo {
 
 	// Move DC motor
 	//% blockId=artec_move_dc_motor
-	//% block="LED %_connector|: %_motion"
+	//% block="turn LED %_connector|: %_motion"
 	export function moveDCMotor(_connector: connectorDCMotor, _motion: DCmotion): void {
 		switch(_motion) {
 			case DCmotion.ON:
